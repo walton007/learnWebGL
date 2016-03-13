@@ -1,0 +1,43 @@
+{
+  "name": "sampleThreeJsApp",
+  "version": "0.1.0",
+  "description": "",
+  "repository": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --progress --colors",
+    "build": "BUILDDIR=/Users/walton/bitbucket/sage2/public/uploads/apps/apple/ webpack --progress --colors --display-modules",
+    "server": "nodemon scripts/server.js"
+  },
+  "author": "",
+  "devDependencies": {
+    "autoprefixer": "^6.1.0",
+    "babel-core": "~6.3.17",
+    "babel-eslint": "^4.1.3",
+    "babel-loader": "~6.2.0",
+    "babel-plugin-syntax-object-rest-spread": "~6.3.13",
+    "babel-plugin-transform-class-properties": "~6.3.13",
+    "babel-plugin-transform-merge-sibling-variables": "~6.3.13",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-react": "~6.3.13",
+    "clean-webpack-plugin": "^0.1.3",
+    "copy-webpack-plugin": "~1.1.1",
+    "css-loader": "^0.19.0",
+    "expose-loader": "~0.7.1",
+    "file-loader": "^0.8.4",
+    "html-webpack-plugin": "^1.6.2",
+    "json-loader": "^0.5.3",
+    "less-loader": "^2.2.0",
+    "nodemon": "~1.9.1",
+    "postcss-loader": "^0.7.0",
+    "socket.io": "~1.4.5",
+    "socket.io-client": "~1.3.7",
+    "style-loader": "^0.12.4",
+    "url-loader": "~0.5.6",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0",
+    "webpack-merge": "^0.2.0"
+  },
+  "dependencies": {
+  }
+}
